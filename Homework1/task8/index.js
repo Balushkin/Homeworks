@@ -1,0 +1,10 @@
+let secondsInAMinute = 60;
+let minutesInAnHour = 60;
+let secondsInAHour = secondsInAMinute * minutesInAnHour;
+alert(secondsInAHour);
+let hoursInDay = 24;
+let secondsInDay = secondsInAHour * hoursInDay;
+alert(secondsInDay);
+let daysInMonth = 31;
+let secondsInMonth = secondsInDay * daysInMonth;
+alert(secondsInMonth);
